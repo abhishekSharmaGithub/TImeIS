@@ -1,0 +1,61 @@
+.main{
+    box-sizing: border-box;
+    padding: 10px;
+    border:100px;
+    background-color: aqua;
+    width:50%;
+    max-height: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    border:3px solid green;
+    margin: auto;
+    
+
+}
+.top{
+        box-sizing: border-box;
+        padding: 10px;
+        border:100px;
+        background-color: aqua;
+        width:50%;
+        max-height: 10%;
+        display: flex;
+        justify-content: space-evenly;
+        border:3px solid green;
+        margin: auto;
+    }
+
+    #timers{
+        width:180px;
+    }
+
+    .count{
+        width: 180px;
+    }
+
+    body {
+        padding: 50px;
+        align-items: center;
+        justify-content: center;
+        animation: changeColor 10s infinite alternate; /* Animation properties */
+    }
+
+    .footer{
+        padding-top: 10px;
+        width:50%;
+        max-height: 10%;
+        display: flex;
+        justify-content: space-evenly;
+        margin: auto;
+
+
+    }
+
+    @keyframes changeColor {
+        0% {
+            background-color: #3498db; /* Start color */
+        }
+        100% {
+            background-color: #e74c3c; /* End color */
+        }
+    }
